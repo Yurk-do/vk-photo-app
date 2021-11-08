@@ -1,0 +1,63 @@
+.home-page-main-container {
+}
+
+.select-album-type-container {
+  font-size: 20px;
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.input-photo-quantity-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-photo-quantity-container > input {
+  width: 30px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.input-photo-quantity-container > label {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.photo-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.button-send-data {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button-auth {
+  margin-left: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+.iframe-container {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+}
+
+.auth-title {
+  cursor: pointer;
+}
